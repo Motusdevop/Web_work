@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление сотрудников</title>
+</head>
+<body>
+    <h2>Добавте сотрудника</h2>
+    <form method="post" action="admin">
+        <p>Имя и Фамилия: <input type="text" name="name" placeholder="Иванов Иван"></p>
+        <p>Отдел: <select name="otdel">
+            <option value="0">Бугалтерия</option>
+            <option value="1">Разработка</option>
+        </select></p>
+        <p>Должность: <input type="text" name="work" placeholder="Капиталист"></p>
+        <p><input type="submit" value="Добавить соотрудника"></p>
+        <a href="/">Посмотреть соотрудников</a>
+    </form>
+</body>
+</html>
